@@ -1,5 +1,5 @@
 import { hash } from 'bcryptjs';
-import { prisma } from '@/lib/db/prisma';
+import { prisma } from '../../../../../lib/db/prisma';
 import { z } from 'zod';
 
 const registerSchema = z.object({
